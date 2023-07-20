@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "34640747369",
+    "project_id": "lawayerapp",
+    "storage_bucket": "lawayerapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34640747369:android:1b9dabbb6ea91bde3cfbf8",
+        "android_client_info": {
+          "package_name": "com.example.lawinhandap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "34640747369-i6ah8va5q6kdf8srbj69fvouutmi2hme.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZeHu2ImVk7SA0EAWHbjh_yn9-zuNLR8g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "34640747369-i6ah8va5q6kdf8srbj69fvouutmi2hme.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
