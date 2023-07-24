@@ -10,12 +10,12 @@ class ViewCase extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Lawyers'),
+        title: const Text('Lawyers'),
       ),
       body: ChangeNotifierProvider(
         create: (context) => MainScreenController(),
         builder: (context, _) {
-          return LawyerList();
+          return const LawyerList();
         },
       ),
     );
@@ -23,6 +23,8 @@ class ViewCase extends StatelessWidget {
 }
 
 class LawyerList extends StatefulWidget {
+  const LawyerList({super.key});
+
   @override
   // ignore: library_private_types_in_public_api
   _LawyerListState createState() => _LawyerListState();

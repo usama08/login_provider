@@ -1,4 +1,3 @@
-import 'dart:io'; // Import dart:io for Platform class
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:local_auth/local_auth.dart';
@@ -7,6 +6,7 @@ class FingerprintAuthScreen extends StatefulWidget {
   const FingerprintAuthScreen({super.key});
 
   @override
+  // ignore: library_private_types_in_public_api
   _FingerprintAuthScreenState createState() => _FingerprintAuthScreenState();
 }
 
@@ -17,14 +17,14 @@ class _FingerprintAuthScreenState extends State<FingerprintAuthScreen> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.only(top: 50),
+      margin: const EdgeInsets.only(top: 50),
       alignment: Alignment.center,
       child: Column(
         children: [
           Center(
             child: Text(msg),
           ),
-          Divider(),
+          const Divider(),
           // ElevatedButton(
           //   onPressed: () async {
           //     try {
