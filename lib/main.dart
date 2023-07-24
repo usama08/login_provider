@@ -11,6 +11,8 @@ import 'View/LoginScreen/signup_screen.dart';
 import 'View/MainPage/components/add_Case.dart';
 import 'View/MainPage/components/main_screen.dart';
 import 'View/MainPage/components/view_case.dart';
+import 'fingerprint/fingerprint.dart';
+import 'fingerprint/second_fingerprint.dart';
 import 'imagepicker/image_picker.dart';
 
 void main() async {
@@ -50,6 +52,8 @@ class MyApp extends StatelessWidget {
           '/viewscreen': (context) => const ViewCase(),
           '/clintscreen': (context) => const AddCaseDetails(),
           '/loginapis': (context) => const LoginPage(),
+          '/fingerprint': (context) => const FingerPrint(),
+          '/auth': (context) => const FingerprintAuthScreen(),
         },
       ),
     );

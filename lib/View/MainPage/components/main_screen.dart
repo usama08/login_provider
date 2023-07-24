@@ -82,8 +82,16 @@ class _MainScreenState extends State<MainScreen> {
                     Navigator.pushNamed(context, '/loginapis');
                   },
                   child: myContainer(context, "Apis Call ")),
-              myContainer(context, ""),
-              myContainer(context, ""),
+              GestureDetector(
+                  onTap: () {
+                    Navigator.pushNamed(context, '/fingerprint');
+                  },
+                  child: myContainer(context, "Authorization")),
+              GestureDetector(
+                  onTap: () {
+                    Navigator.pushNamed(context, '/auth');
+                  },
+                  child: myContainer(context, "Fingerprint")),
             ],
           )
         ],
